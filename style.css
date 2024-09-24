@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.navbar1 {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #000;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    list-style: none;
+    position: relative;
+    gap: 72px;
+}
+
+.nav-links li a {
+    color: rgb(213, 213, 213);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li {
+    display: flex;
+    position: relative;
+}
+
+.nav-links li a:hover {
+    color: white;
+
+}
+
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -20px;
+
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+
+}
+
+.line {
+    background-color: #00ff00;
+    height: 1px;
+    width: 100vw;
+}
+
+.navbar2 {
+    background-color: #565656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 58px;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar2 a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #2e2e2e;
+    border-bottom: solid 10px #2e2e2e;
+}
+
+.grey {
+    color: #2e2e2e;
+}
+
+.grid * {
+    height: 35vw;
+}
+
+.box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.upper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45vw;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inner * {
+
+    padding: 2px;
+}
+
+.green {
+    color: #00ff00;
+}
+
+.main {
+    font-size: 57px;
+    font-weight: 600;
+    display: inline-block;
+
+
+}
+
+.sub {
+    font-size: 35px;
+    font-weight: 300;
+    display: inline-block;
+    transform: scale(0.8, 0.8);
+    line-height: 30px;
+}
+
+.links a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.keyboard {
+    background-image: url('assets/key.png');
+    border-bottom: 10px solid #2e2e2e;
+}
+
+.controller {
+    background-image: url('//assets2.razerzone.com/images/pnx.assets/9aaa4c7d3671f1b1a5f916f45569205c/razer-wolverine-v3-pro-homepage-desktop2x.webp');
+    background-blend-mode: darken;
+    border-bottom: 10px solid #2e2e2e;
+}
+
+.laptop {
+    background-image: url('//assets2.razerzone.com/images/pnx.assets/9d0a8ebf8b1a2e39e745cdefefe9b83d/razer-blade-18-2024-homepage-desktop2x.webp');
+    border-bottom: 10px solid #2e2e2e;
+}
+
+.main1 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.sub1 {
+    padding-top: 1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-image: url('assets/b1.webp');
+}
+
+.box2 {
+    background-image: url('assets/b2.webp');
+}
+
+.box3 {
+    background-image: url('assets/b6.webp');
+}
+
+.box4 {
+    background-image: url('assets/b4.webp');
+}
+
+.box5 {
+    background-image: url('assets/b5.webp');
+}
+
+.box6 {
+    background-image: url('assets/b7.webp');
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 4px;
+}
+
+.links2 li a:hover {
+    text-decoration: underline;
+}
+
+.links2 li {
+    list-style-type: none;
+    height: 16px;
+}
+
+.links2 ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.links2 ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.links ul {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+
+}
+
+.footerin {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-container {
+    width: 75%;
+    font-size: 12px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 45px;
+}
+
+.footer-column {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.white {
+    color: white;
+}
+
+.footer-column ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #aeaeae;
+    padding: 5px;
+}
+
+.social-links a img {
+    width: 26px;
+}
+
+.social-links {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.social-links ul li {
+    list-style-type: none;
+    padding: 1px;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #aeaeae;
+    padding: 1px;
+}
+
+.line2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: #aeaeae;
+}
+
+.footer-green-text {
+    color: #00ff00;
+    text-transform: uppercase;
+    font-size: 15px;
+
+    text-align: right;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #aeaeae;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fir {
+    display: flex;
+    gap: 30px;
+}
+
+.fir a {
+    text-decoration: none;
+    color: #aeaeae;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #aeaeae;
+}
+
+.pad a {
+    padding: 10px;
+}
